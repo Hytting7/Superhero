@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 public class Database {
 
-   ArrayList<Superhero> superheroes = new ArrayList<>();
+   private ArrayList<Superhero> superheroes = new ArrayList<>();
 
    public void createsuperhero(Superhero superhero) {
       superheroes.add(superhero);
-
    }
 
+   public ArrayList<Superhero> superheroes(){
+      return superheroes;
+   }
 }
 

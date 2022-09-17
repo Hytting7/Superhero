@@ -40,4 +40,15 @@ public class Superhero {
     public double getStyrke(){
         return styrke;
     }
+
+    private String getMenneskeStatus(){
+        return erMenneske == true ? "Ja" : "Nej";
+    }
+
+    @Override
+    public String toString() {
+        String string =
+        "Navn: "+navn+"\n"+"Superheltenavn: "+superhelteNavn+"\n"+"Superkraft: "+superkraft+"\n"+"Oprindelsesår: "+oprindelsesår+"\n"+"Er menneske: "+getMenneskeStatus()+"\n"+"Styrke: "+styrke;
+        return string;
+    }
 }

@@ -9,6 +9,7 @@ public class Main {
         while (true) {
             System.out.println("Velkommen til SUPERHERO UNIVERSET");
             System.out.println("1. Opret en superhelt");
+            System.out.println("2. Læs");
             System.out.println("9. Afslut");
 
             Scanner scanner = new Scanner(System.in);
@@ -33,6 +34,11 @@ public class Main {
                     database.createsuperhero(mySuperhero);
                     break;
                 case 2:
+                    System.out.println("Liste af superhelte ");
+
+                    for (Superhero superhero: database.superheroes()){
+                        System.out.println(superhero);
+                    }
                     break;
                 case 3:
                     break;
