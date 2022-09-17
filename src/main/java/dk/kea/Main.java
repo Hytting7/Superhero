@@ -10,6 +10,9 @@ public class Main {
             System.out.println("Velkommen til SUPERHERO UNIVERSET");
             System.out.println("1. Opret en superhelt");
             System.out.println("2. Læs");
+            System.out.println("3. Redigér");
+            System.out.println("4. Slet");
+            System.out.println("5. Søg");
             System.out.println("9. Afslut");
 
             Scanner scanner = new Scanner(System.in);
@@ -43,6 +46,11 @@ public class Main {
                 case 3:
                     break;
                 case 4:
+                    break;
+                case 5:
+                    for (Superhero superhero: database.searchForSuperheroes(scanner.nextLine())) {
+                        System.out.println(superhero);
+                    }
                     break;
                 case 9:
                     break;

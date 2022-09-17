@@ -13,5 +13,15 @@ public class Database {
    public ArrayList<Superhero> superheroes(){
       return superheroes;
    }
+
+   public ArrayList<Superhero> searchForSuperheroes(String search){
+      ArrayList<Superhero> searchArrayList = new ArrayList<>();
+      for (Superhero superhero: superheroes){
+         if (superhero.getSuperhelteNavn().toLowerCase().contains(search.toLowerCase())){
+            searchArrayList.add(superhero);
+         }
+      }
+      return searchArrayList;
+   }
 }
 
