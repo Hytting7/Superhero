@@ -10,9 +10,7 @@ public class Database {
     Superhero wonderWoman = new Superhero("Diana", "Wonder Woman", "Superstyrke", 1950, false, 50);
     public ArrayList<Superhero> superheroes = new ArrayList<>();
 
-    public Superhero defaultSuperheroes;
-
-    {
+    public void defaultSuperheroes() {
         superheroes.add(batman);
         superheroes.add(superman);
         superheroes.add(spiderman);

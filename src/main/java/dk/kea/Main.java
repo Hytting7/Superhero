@@ -40,8 +40,8 @@ public class Main {
                     database.createsuperhero(mySuperhero);
                     break;
                 case 2:
-                    System.out.println("Liste af superhelte ");
-                    System.out.println(database.batman+"\n\n"+database.superman+"\n\n"+database.spiderman+"\n\n"+database.wonderWoman+"\n");
+                    System.out.println("Liste af superhelte"+"\n");
+                    System.out.println(database.batman+"\n\n"+database.superman+"\n\n"+database.spiderman+"\n\n"+database.wonderWoman+"\n\n"+database.superheroes+"\n");
 
                     break;
                 case 3:

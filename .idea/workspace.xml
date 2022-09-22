@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8a7cb26-0d3e-486d-a5c8-4d64d928d381" name="Changes" comment="Fixed User story 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/UserInterface.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <workItem from="1663842250744" duration="6587000" />
       <workItem from="1663860346557" duration="667000" />
       <workItem from="1663861024109" duration="244000" />
-      <workItem from="1663861419175" duration="2094000" />
+      <workItem from="1663861419175" duration="3565000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1663436737236</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663845725508</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed User story 5">
+      <created>1663866378834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663866378834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
