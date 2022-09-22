@@ -8,7 +8,7 @@ public class Superhero {
     private boolean erMenneske;
     private double styrke;
 
-    public Superhero (String navn, String superhelteNavn, String superkraft, int oprindelsesår, boolean erMenneske, double styrke){
+    public Superhero(String navn, String superhelteNavn, String superkraft, int oprindelsesår, boolean erMenneske, double styrke) {
         this.navn = navn;
         this.superhelteNavn = superhelteNavn;
         this.superkraft = superkraft;
@@ -17,38 +17,38 @@ public class Superhero {
         this.styrke = styrke;
     }
 
-    public String getNavn(){
+    public String getNavn() {
         return navn;
     }
 
-    public String getSuperhelteNavn(){
+    public String getSuperhelteNavn() {
         return superhelteNavn;
     }
 
-    public String getSuperkraft(){
+    public String getSuperkraft() {
         return superkraft;
     }
 
-    public int getOprindelsesår(){
+    public int getOprindelsesår() {
         return oprindelsesår;
     }
 
-    public boolean getErMenneske(){
+    public boolean getErMenneske() {
         return erMenneske;
     }
 
-    public double getStyrke(){
+    public double getStyrke() {
         return styrke;
     }
 
-    private String getMenneskeStatus(){
+    private String getMenneskeStatus() {
         return erMenneske == true ? "Ja" : "Nej";
     }
 
     @Override
     public String toString() {
         String string =
-        "Navn: "+navn+"\n"+"Superheltenavn: "+superhelteNavn+"\n"+"Superkraft: "+superkraft+"\n"+"Oprindelsesår: "+oprindelsesår+"\n"+"Er menneske: "+getMenneskeStatus()+"\n"+"Styrke: "+styrke;
+                "Navn: " + navn + "\n" + "Superheltenavn: " + superhelteNavn + "\n" + "Superkraft: " + superkraft + "\n" + "Oprindelsesår: " + oprindelsesår + "\n" + "Er menneske: " + getMenneskeStatus() + "\n" + "Styrke: " + styrke;
         return string;
     }
 }

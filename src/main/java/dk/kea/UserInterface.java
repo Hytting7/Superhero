@@ -63,13 +63,5 @@ public class UserInterface {
                 default:
             }
         }
-
-
-        //Superhero[] superheroes = {navn,superhelteNavn,superkraft,oprindelsesår,erMenneske,styrke};
-
-
-        //database.createSuperhero(navn,superhelteNavn,superkraft,oprindelsesår,erMenneske,styrke);
-
     }
-
 }
