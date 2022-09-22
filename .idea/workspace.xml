@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/kea/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/kea/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
       <workItem from="1663582901264" duration="6549000" />
       <workItem from="1663657672048" duration="25000" />
       <workItem from="1663666037634" duration="403000" />
+      <workItem from="1663842250744" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1663436737236</created>

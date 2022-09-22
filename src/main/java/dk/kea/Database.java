@@ -8,9 +8,9 @@ public class Database {
    Superhero superman = new Superhero("Clarke Kent","Superman","Alt",1920,false,2000);
    Superhero spiderman = new Superhero("Peter Parker", "Spider-man","Edderkoppesans",1955,true,10);
    Superhero wonderWoman = new Superhero("Diana","Wonder Woman","Superstyrke",1950,false,50);
-   private ArrayList<Superhero> superheroes = new ArrayList<>();
+   public ArrayList<Superhero> superheroes = new ArrayList<>();
 
-   public void defaultSuperheroes(Superhero superhero){
+   public Superhero defaultSuperheroes;{
       superheroes.add(batman);
       superheroes.add(superman);
       superheroes.add(spiderman);
