@@ -4,7 +4,18 @@ import java.util.ArrayList;
 
 public class Database {
 
+   Superhero batman = new Superhero("Bruce Wayne", "Batman", "Penge", 1939,true,1.5);
+   Superhero superman = new Superhero("Clarke Kent","Superman","Alt",1920,false,2000);
+   Superhero spiderman = new Superhero("Peter Parker", "Spider-man","Edderkoppesans",1955,true,10);
+   Superhero wonderWoman = new Superhero("Diana","Wonder Woman","Superstyrke",1950,false,50);
    private ArrayList<Superhero> superheroes = new ArrayList<>();
+
+   public void defaultSuperheroes(Superhero superhero){
+      superheroes.add(batman);
+      superheroes.add(superman);
+      superheroes.add(spiderman);
+      superheroes.add(wonderWoman);
+   }
 
    public void createsuperhero(Superhero superhero) {
       superheroes.add(superhero);

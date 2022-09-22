@@ -16,6 +16,9 @@ public class Main {
             System.out.println("9. Afslut");
 
             Scanner scanner = new Scanner(System.in);
+            //scanner.useLocale(Locale.english);
+
+
             int operation = scanner.nextInt();
             scanner.nextLine();
 
@@ -39,20 +42,27 @@ public class Main {
                 case 2:
                     System.out.println("Liste af superhelte ");
 
-                    for (Superhero superhero: database.superheroes()){
+                    for (Superhero superhero : database.superheroes()) {
                         System.out.println(superhero);
                     }
+                    //for (Superhero superhero : database.defaultSuperheroes(Superhero)) {
+                      //  System.out.println(superhero);
+                   //}
                     break;
                 case 3:
                     break;
                 case 4:
                     break;
                 case 5:
-                    for (Superhero superhero: database.searchForSuperheroes(scanner.nextLine())) {
+                    for (Superhero superhero : database.searchForSuperheroes(scanner.nextLine())) {
                         System.out.println(superhero);
                     }
+
                     break;
                 case 9:
+                    System.out.print("Programmet er afsluttet");
+                    System.exit(0);
+
                     break;
 
                 default:
